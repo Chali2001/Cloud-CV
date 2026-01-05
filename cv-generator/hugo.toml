@@ -1,0 +1,13 @@
+baseURL = "https://cv.chalichen.cat/"
+languageCode = "es-es"
+title = "Currículum Vitae"
+
+theme = "careercanvas"
+
+[params]
+
+  [params.pexels]
+    enable = true
+
+    [params.pexels.queries]
+      hero = "software developer"

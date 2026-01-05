@@ -1,0 +1,3 @@
+[submodule "cv-generator/themes/careercanvas"]
+	path = cv-generator/themes/careercanvas
+	url = https://github.com/felipecordero/careercanvas.git

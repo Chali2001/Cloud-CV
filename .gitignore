@@ -9,3 +9,13 @@ __pycache__/
 
 # OS / editor
 .DS_Store
+
+# Hugo
+cv-generator/public/
+cv-generator/resources/
+cv-generator/.hugo_build.lock
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
