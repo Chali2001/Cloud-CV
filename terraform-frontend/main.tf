@@ -18,9 +18,9 @@ frontend:
   phases:
     build:
       commands:
-        - echo "No build step required"
+        - echo "static site"
   artifacts:
-    baseDirectory: /
+    baseDirectory: cv-generated
     files:
       - '**/*'
 EOF
