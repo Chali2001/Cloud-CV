@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     
     <script>
@@ -49,7 +50,7 @@
 
 
 
-    
+
     
     <style>
  
@@ -121,26 +122,29 @@
 }
 </style>
 
+
     
-        
-        
-        
-            
-                
-            
-            <link rel="stylesheet" href="/css/main.min.589f9028ea422507f3d6e810bfd0993647fb4d6a0c06afdc30181752aab1b756.css?v=1767713882" data-version="1767713882">
-        
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/main.min.e3e262b809d26f2222e916ebe0d65211d5ac4cdc37dad0baae18d5701b3e41bb.css?v=1767715190" data-version="1767715190">
+    
     <style>
          
         body {
             visibility: hidden;
         }
+
         .dark body {
             visibility: hidden;
         }
     </style>
 </head>
-<body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200">
+
+<body
+    class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200">
 
     <nav class="fixed w-full bg-bg dark:bg-bg shadow-md z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -413,6 +417,11 @@
 
 
     <div class="w-full h-16"></div>
+    <div class="w-full flex justify-center mt-2">
+        <div id="visit-counter" class="text-sm opacity-80">
+            👁️ Visitas: cargando...
+        </div>
+    </div>
 
     <main class="flex-grow">
         
@@ -464,17 +473,17 @@
 
 
 
-        
-        
-        
-        
-        
-            
-            
-            
-            
-        
-        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
@@ -530,7 +539,7 @@
   }
 </script>
 
-        
+    
 
 <script>
   
@@ -551,40 +560,40 @@
   }
 </script>
 
-        
-        
-            <script src="/js/scripts.min.b6e79814155cf02c33cf809dde2d11276e3a6e63f9671f039a78ce333e82ecbe.js"></script>
-        
+    
+    
+    <script src="/js/scripts.min.acd9679431032ab599536afed49965950732f1a0bca6aa257f9da42acf6d16fd.js"></script>
+    
 
-        
-            <script src="/js/dynamic-colors.min.6a387c448192ede54f610667cc57e48efd8a1b5a4ff417cee74f1860886f5e25.js"></script>
-        
+    
+    <script src="/js/dynamic-colors.min.6a387c448192ede54f610667cc57e48efd8a1b5a4ff417cee74f1860886f5e25.js"></script>
+    
 
-        
-            <script src="/js/gsap-animations.min.8d4514b912ddd23fdf965b784542b279d8db50daad1aaa856e8204dd69252297.js"></script>
-        
+    
+    <script src="/js/gsap-animations.min.8d4514b912ddd23fdf965b784542b279d8db50daad1aaa856e8204dd69252297.js"></script>
+    
 
-        
-            <script src="/js/pexels-background.min.ddcc7c6a4a6a2051abc6432e709cffea01c8068215c2a55da51cae9463a47753.js"></script>
-        
+    
+    <script src="/js/pexels-background.min.ddcc7c6a4a6a2051abc6432e709cffea01c8068215c2a55da51cae9463a47753.js"></script>
+    
 
-        <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js"></script>
-        
-        <script>
-            (function(){
-                if (!document.querySelector('link[href*="main.css"]')) return;
-                
-                
-                var cssText = '';
-                fetch(document.querySelector('link[href*="main.css"]').href).then(r=>r.text()).then(t=>{
-                    if (t.indexOf('@tailwind') !== -1) {
-                        var script = document.createElement('script');
-                        script.src = 'https://cdn.tailwindcss.com';
-                        document.head.appendChild(script);
-                    }
-                }).catch(()=>{});
-            })();
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js"></script>
+    
+    <script>
+        (function () {
+            if (!document.querySelector('link[href*="main.css"]')) return;
+            
+            
+            var cssText = '';
+            fetch(document.querySelector('link[href*="main.css"]').href).then(r => r.text()).then(t => {
+                if (t.indexOf('@tailwind') !== -1) {
+                    var script = document.createElement('script');
+                    script.src = 'https://cdn.tailwindcss.com';
+                    document.head.appendChild(script);
+                }
+            }).catch(() => { });
+        })();
+    </script>
 
     
     <script>
@@ -596,9 +605,33 @@
         }
 
         
-        window.addEventListener('load', function() {
+        window.addEventListener('load', function () {
             document.body.style.visibility = 'visible';
         });
     </script>
+
+    <script>
+        (function () {
+            var API_URL = "https://vllv40p656.execute-api.us-east-1.amazonaws.com/prod/count";
+
+            fetch(API_URL)
+                .then(function (response) { return response.json(); })
+                .then(function (data) {
+                    console.log("Contador API:", data);
+                    var el = document.getElementById("visit-counter");
+                    if (el && data && (data.count !== undefined)) {
+                        el.textContent = "👁️ Visitas: " + data.count;
+                    }
+                })
+                .catch(function (err) {
+                    console.error("Error cargando contador", err);
+                    var el = document.getElementById("visit-counter");
+                    if (el) {
+                        el.textContent = "👁️ Visitas: error";
+                    }
+                });
+        })();
+    </script>
 </body>
+
 </html>
