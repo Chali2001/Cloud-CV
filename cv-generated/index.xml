@@ -7,5 +7,40 @@
     <generator>Hugo</generator>
     <language>es-es</language>
     <atom:link href="https://cv.chalichen.cat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contacto</title>
+      <link>https://cv.chalichen.cat/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cv.chalichen.cat/contact/</guid>
+      <description>&lt;p&gt;📍 &lt;strong&gt;Barcelona, España&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;📧 &lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:chali@example.com&#34;&gt;chali@example.com&lt;/a&gt;&lt;br&gt;&#xA;🐙 &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Chali2001&#34;&gt;https://github.com/Chali2001&lt;/a&gt;&lt;br&gt;&#xA;🔗 &lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=&#34;https://linkedin.com/in/chali-example&#34;&gt;https://linkedin.com/in/chali-example&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiencia</title>
+      <link>https://cv.chalichen.cat/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cv.chalichen.cat/experience/</guid>
+      <description>&lt;h3 id=&#34;-proyecto-cloud-resume-challenge&#34;&gt;👨‍💻 Proyecto Cloud Resume Challenge&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;2025 – Actualidad&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Desarrollo de un currículum online totalmente serverless en AWS&lt;/li&gt;&#xA;&lt;li&gt;Backend con AWS Lambda (Python)&lt;/li&gt;&#xA;&lt;li&gt;API REST con API Gateway&lt;/li&gt;&#xA;&lt;li&gt;Base de datos DynamoDB con backups activados&lt;/li&gt;&#xA;&lt;li&gt;Infraestructura desplegada con Terraform&lt;/li&gt;&#xA;&lt;li&gt;CI/CD con GitHub Actions&lt;/li&gt;&#xA;&lt;li&gt;Dominio propio con HTTPS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-estudios--desarrollo-de-aplicaciones-multiplataforma&#34;&gt;🎓 Estudios – Desarrollo de Aplicaciones Multiplataforma&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;ITIC Barcelona&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Programación orientada a objetos&lt;/li&gt;&#xA;&lt;li&gt;Bases de datos&lt;/li&gt;&#xA;&lt;li&gt;Desarrollo web&lt;/li&gt;&#xA;&lt;li&gt;Cloud y despliegues&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Proyectos</title>
+      <link>https://cv.chalichen.cat/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cv.chalichen.cat/projects/</guid>
+      <description>&lt;h3 id=&#34;-cloud-resume-challenge&#34;&gt;🌐 Cloud Resume Challenge&lt;/h3&gt;&#xA;&lt;p&gt;Currículum online desplegado en AWS siguiendo buenas prácticas cloud.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tecnologías:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AWS Lambda&lt;/li&gt;&#xA;&lt;li&gt;API Gateway&lt;/li&gt;&#xA;&lt;li&gt;DynamoDB&lt;/li&gt;&#xA;&lt;li&gt;Terraform&lt;/li&gt;&#xA;&lt;li&gt;GitHub Actions&lt;/li&gt;&#xA;&lt;li&gt;Hugo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-api-contador-de-visitas&#34;&gt;📦 API Contador de Visitas&lt;/h3&gt;&#xA;&lt;p&gt;API serverless que registra y devuelve el número de visitas al CV.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Endpoint REST&lt;/li&gt;&#xA;&lt;li&gt;DynamoDB como almacenamiento&lt;/li&gt;&#xA;&lt;li&gt;Tests automáticos en Python&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>https://cv.chalichen.cat/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cv.chalichen.cat/skills/</guid>
+      <description>&lt;h3 id=&#34;-lenguajes&#34;&gt;🧠 Lenguajes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Java&lt;/li&gt;&#xA;&lt;li&gt;JavaScript&lt;/li&gt;&#xA;&lt;li&gt;SQL&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-cloud--devops&#34;&gt;☁️ Cloud &amp;amp; DevOps&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AWS (Lambda, API Gateway, DynamoDB, Amplify, Route53)&lt;/li&gt;&#xA;&lt;li&gt;Terraform&lt;/li&gt;&#xA;&lt;li&gt;GitHub Actions&lt;/li&gt;&#xA;&lt;li&gt;CI/CD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-herramientas&#34;&gt;🧰 Herramientas&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Git &amp;amp; GitHub&lt;/li&gt;&#xA;&lt;li&gt;Docker (básico)&lt;/li&gt;&#xA;&lt;li&gt;Linux / macOS&lt;/li&gt;&#xA;&lt;li&gt;VS Code&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-web&#34;&gt;🌐 Web&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;HTML&lt;/li&gt;&#xA;&lt;li&gt;CSS&lt;/li&gt;&#xA;&lt;li&gt;JavaScript&lt;/li&gt;&#xA;&lt;li&gt;Hugo (Static Site Generator)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Sobre mí</title>
+      <link>https://cv.chalichen.cat/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cv.chalichen.cat/about/</guid>
+      <description>&lt;p&gt;Soy &lt;strong&gt;Chali C.&lt;/strong&gt;, estudiante de &lt;strong&gt;Desarrollo de Aplicaciones Multiplataforma&lt;/strong&gt; con interés en &lt;strong&gt;cloud computing, automatización e infraestructura como código&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Actualmente estoy desarrollando proyectos personales en AWS utilizando servicios como &lt;strong&gt;Lambda, API Gateway, DynamoDB y Amplify&lt;/strong&gt;, aplicando buenas prácticas de &lt;strong&gt;CI/CD&lt;/strong&gt; y &lt;strong&gt;Terraform&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Este currículum forma parte del &lt;strong&gt;Cloud Resume Challenge&lt;/strong&gt;, donde demuestro conocimientos reales en:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Desarrollo web&lt;/li&gt;&#xA;&lt;li&gt;Backend serverless&lt;/li&gt;&#xA;&lt;li&gt;Infraestructura como código&lt;/li&gt;&#xA;&lt;li&gt;Automatización de despliegues&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Busco seguir creciendo como desarrollador cloud y backend.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

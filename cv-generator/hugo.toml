@@ -5,9 +5,186 @@ title = "Currículum Vitae"
 theme = "careercanvas"
 
 [params]
+profile_image = "/images/profile2.png"
 
-  [params.pexels]
-    enable = true
+linkedin_url = "https://linkedin.com/in/chali-example"
+github_url = "https://github.com/Chali2001"
+email = "chali@example.com"
+author = "Chali C."
+  name = "Chali C."
+  tagline = "Estudiante de Desarrollo y Cloud"
+  location = "Barcelona, España"
+  description = "Currículum online desplegado en AWS (Cloud Resume Challenge)"
+  hero_location = "Barcelona, España"
+  hero_description = "Estudiante de Desarrollo de Aplicaciones Multiplataforma con interés en cloud computing, automatización e infraestructura como código."
+  about = """
+Estudiante de Desarrollo de Aplicaciones Multiplataforma con interés en
+cloud computing, automatización e infraestructura como código.
+
+Este currículum forma parte del Cloud Resume Challenge y está desplegado en AWS.
+"""
+
+  # Resume and social links (added to match theme expectations)
+  resume_url_en = "/files/Chali_resume_en.pdf"
+  resume_label = "Currículum completo"
+
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/Chali2001"
+
+  [params.color_palettes]
+    [[params.color_palettes.palette]]
+      name = "Default Blue"
+      main_color = "#3b82f6"
+      second_color = "#2563eb"
+      third_color = "#60a5fa"
+
+  [params.section_titles]
+    skills = "Habilidades Técnicas"
+    experience = "Experiencia Profesional"
+    projects = "Proyectos Destacados"
+
+  [params.skills]
+    [[params.skills.list]]
+      title = "Lenguajes"
+      items = ["Python", "Java", "JavaScript", "SQL", "Bash"]
+      color = "blue"
+      icon = "code"
+
+    [[params.skills.list]]
+      title = "Cloud & DevOps"
+      items = ["AWS Lambda", "API Gateway", "DynamoDB", "Amplify", "Terraform", "GitHub Actions"]
+      color = "orange"
+      icon = "cloud"
+
+    [[params.skills.list]]
+      title = "Herramientas"
+      items = ["Git & GitHub", "Docker", "VS Code", "Linux/macOS"]
+      color = "green"
+      icon = "tools"
+
+    [[params.skills.list]]
+      title = "Web Development"
+      items = ["HTML5", "CSS3", "Hugo", "TailwindCSS"]
+      color = "purple"
+      icon = "laptop-code"
+
+  [params.experience]
+    [[params.experience.list]]
+      title = "Cloud Resume Challenge"
+      company = "Proyecto Personal / AWS"
+      dates = "2025 - Actualidad"
+      location = "Remoto"
+      description = "Desarrollo y despliegue de un currículum serverless completo."
+      tags = ["AWS Lambda", "Terraform", "GitHub Actions", "Python", "DynamoDB"]
+      achievements = [
+        "Implementación de arquitectura Serverless real.",
+        "Automatización completa de CI/CD con GitHub Actions.",
+        "Infraestructura como Código (IaC) usando Terraform.",
+        "Integración de contador de visitas con base de datos NoSQL."
+      ]
+
+    [[params.experience.list]]
+      title = "Estudiante DAM"
+      company = "ITIC Barcelona"
+      dates = "2024 - Actualidad"
+      location = "Barcelona"
+      description = "Formación intensiva en desarrollo de software y administración de sistemas."
+      tags = ["Java", "SQL", "Spring Boot", "Sistemas Distribuídos"]
+      achievements = [
+        "Desarrollo de aplicaciones multiplataforma.",
+        "Gestión de bases de datos relacionales.",
+        "Metodologías ágiles de desarrollo."
+      ]
+
+  [params.sections]
+    about = true
+    skills = true
+    experience = true
+    projects = true
+    contact = true
+
+  [params.projects]
+    [[params.projects.list]]
+      title = "Cloud Resume Generator"
+      description = "Generador de currículums estáticos desplegado en AWS con alta disponibilidad."
+      image = "/images/projects/cloud-resume.jpg"
+      link = "https://cv.chalichen.cat"
+      github = "https://github.com/Chali2001/cloud-resume"
+      tags = ["Hugo", "AWS", "Terraform"]
+      featured = true
+
+    [[params.projects.list]]
+      title = "API Serverless"
+      description = "API REST construida con AWS Lambda y API Gateway para servicios backend."
+      image = "/images/projects/api.jpg"
+      link = "#"
+      github = "#"
+      tags = ["Python", "API Gateway", "Lambda"]
+
 
     [params.pexels.queries]
-      hero = "software developer"
+      hero = ["bridge", "city", "sunset", "architecture", "engineering"]
+  [params.colors.hero]
+    background_gradient_from = "#000000"
+    background_gradient_via1 = "#02081b"
+    background_gradient_via2 = "#0d0741"
+    background_gradient_to = "#000000"
+    
+    overlay_color = "#78dbff"
+    overlay_opacity = "0.3"
+    overlay_opacity_dark = "0.2"
+    
+    name_gradient_from = "#ffffff"
+    name_gradient_to = "#dbeafe"
+    name_gradient_to_dark = "#bfdbfe"
+    
+    tagline_color = "#dbeafe"
+    tagline_color_dark = "#bfdbfe"
+    description_color = "#eff6ff"
+    description_color_dark = "#dbeafe"
+    greeting_color = "#bfdbfe"
+    greeting_color_dark = "#93c5fd"
+    
+    location_badge_bg = "#fbbf24"
+    location_badge_text = "#1f2937"
+
+  [params.hero.stats]
+    [[params.hero.stats.item]]
+      icon = "certificate"
+      value = "3+"
+      label = "Certificaciones"
+      color = "text-yellow-400"
+    
+    [[params.hero.stats.item]]
+      icon = "project-diagram"
+      value = "10+"
+      label = "Proyectos Cloud"
+      color = "text-blue-400"
+
+[menu]
+
+[[menu.main]]
+  name = "Sobre mí"
+  url = "/about"
+  weight = 1
+
+[[menu.main]]
+  name = "Skills"
+  url = "/skills"
+  weight = 2
+
+[[menu.main]]
+  name = "Experiencia"
+  url = "/experience"
+  weight = 3
+
+[[menu.main]]
+  name = "Proyectos"
+  url = "/projects"
+  weight = 4
+
+[[menu.main]]
+  name = "Contacto"
+  url = "/contact"
+  weight = 5
